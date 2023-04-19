@@ -6,7 +6,7 @@ You can download our datasets [here](https://drive.google.com/drive/folders/12e2
 
 ## Introduction
 
-The lack of publicly available datasets for sequential visual localization in large-scale indoor spaces has been a significant obstacle for advancing the field. This repository aims to provide datasets that contribute to the progress of sequential visual localization research. Our datasets encompass diverse indoor spaces within university buildings. For more details, please refer to our paper, [CLoc](https://ieeexplore.ieee.org/abstract/document/10068431).
+The lack of publicly available datasets for sequential visual localization in large-scale indoor spaces has been a significant obstacle for advancing the field. This repository aims to provide datasets that contribute to the progress of sequential visual localization research. Our datasets encompass three indoor spaces within university buildings. For more details, please refer to our paper, [CLoc](https://ieeexplore.ieee.org/abstract/document/10068431).
 
 ## Dataset Description
 
