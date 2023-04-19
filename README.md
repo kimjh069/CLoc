@@ -30,7 +30,7 @@ There are 3 datasets labeled as "NEB1", "NEB2", and "SFB", respectively. Each da
 - `ground_truth`: The 6-DoF ground truth poses for images in each query sequence are saved in query_images_gt.pickle files. Each ground truth pose of a query image is saved as 'query_path': [position(x, y, z), quaternion(w, x, y, z)] in the file. The position(x, y, z) represents the translation vector (in meters) from the world coordinate system to the camera coordinate system, and quaternion(w, x, y, z) denotes the orientation of the camera with respect to the world coordinate system as a unit quaternion.
 
 ## Sample Result Videos
-The sample result videos of our algorithm, CLoc, can be found in the `videos' folder. These videos showcase a comparison between CLoc and a one-shot visual localization (OVL) method by rendering colored point clouds onto the image plane using the estimated poses.
+The sample result videos of our algorithm, CLoc, can be found in the `videos` folder. These videos showcase a comparison between CLoc and a one-shot visual localization (OVL) method by rendering colored point clouds onto the image plane using the estimated poses.
 
 The videos display, from left to right, the OVL result, the query frame, and the CLoc result. To provide clearer visualization, the video playback is slowed down to 0.2 times the frame rate of the original video captured by a smartphone camera.
 
