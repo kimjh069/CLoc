@@ -1,6 +1,6 @@
 # CLoc: Confident Initial Estimation of Long-Term Visual Localization Using a Few Sequential Images in Large-Scale Spaces
 
-This repository provides datasets for indoor visual localization, as published in the IEEE Sensors Journal. The datasets, created for indoor visual localization with sequential images, address two major challenges: "long-term" and "large-scale". We hope our datasets can aid the development of visual localization algorithms.
+This repository provides datasets for visual localization, as published in the IEEE Sensors Journal. The datasets, created for indoor visual localization with sequential images, address two major challenges: "long-term" and "large-scale". We hope our datasets can aid the development of visual localization algorithms.
 
 You can download our datasets [here](https://drive.google.com/drive/folders/12e2J_Eg7lICdEyDwDxKJHEDBoy5ytwAS?usp=sharing).
 
