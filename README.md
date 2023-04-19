@@ -25,7 +25,7 @@ There are 3 datasets labeled as "NEB1", "NEB2", and "SFB", respectively. Each da
 - `ground_truth`: The 6-DoF ground truth poses for images in each query sequence are saved in query_images_gt.pickle files. Each ground truth pose of a query image is saved as 'query_path': [position(x, y, z), quaternion(w, x, y, z)] in the file. The position(x, y, z) represents the translation vector (in meters) from the world coordinate system to the camera coordinate system, and quaternion(w, x, y, z) denotes the orientation of the camera with respect to the world coordinate system as a unit quaternion.
 
 ## BibTex Citation
-If you report any of the above data, or use any of the results in our paper, please consider citing [CLoc](https://ieeexplore.ieee.org/abstract/document/10068431).
+If you use any of the above data for your research, or use any of the results in our paper, please consider citing [CLoc](https://ieeexplore.ieee.org/abstract/document/10068431).
 
 ```
 @article{kim2023cloc,
