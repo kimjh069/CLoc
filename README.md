@@ -26,7 +26,7 @@ There are 3 datasets labeled as "NEB1", "NEB2", and "SFB", respectively. Each da
 ### Query folder
 
 - `intrinsic`: The intrinsic camera parameters of the camera that captured the query images.
-- `query_sequences`: The sequential query images are split into folders containing no more than 50 images each.
+- `query_sequences`: The sequential query images are split into folders containing no more than 50 images each. In order to extract SuperPoint local features from the query images, consider using `hloc/extract_features.py` in [hloc's instructions](https://github.com/cvg/Hierarchical-Localization#using-your-own-local-features-or-matcher).
 - `ground_truth`: The 6-DoF ground truth poses for images in each query sequence are saved in query_images_gt.pickle files. Each ground truth pose of a query image is saved as 'query_path': [position(x, y, z), quaternion(w, x, y, z)] in the file. The position(x, y, z) represents the translation vector (in meters) from the world coordinate system to the camera coordinate system, and quaternion(w, x, y, z) denotes the orientation of the camera with respect to the world coordinate system as a unit quaternion.
 
 ## Sample Result Videos
